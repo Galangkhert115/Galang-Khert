@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Semantic Page</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Georgia, serif;
+}
+
+
+header{
+    background: linear-gradient(to right, pink, lightblue);
+    text-align:center;
+    padding:30px;
+    font-size:30px;
+    font-weight:bold;
+}
+
+
+nav{
+    background:#ff69b4; /* pink */
+    padding:10px;
+}
+
+nav a{
+    color:white;
+    margin-right:15px;
+    text-decoration:none;
+}
+
+
+.container{
+    display:flex;
+    padding:30px;
+    gap:40px;
+}
+
+
+aside{
+    flex:1;
+    background:#ffe4f2; /* light pink */
+    padding:15px;
+}
+
+section{
+    flex:1;
+    background:#e6f3ff; /* light blue */
+    padding:15px;
+}
+
+article{
+    flex:1;
+    background:#d9ecff; /* soft blue */
+    padding:15px;
+}
+
+h2{
+    margin-top:0;
+}
+
+
+footer{
+    text-align:center;
+    padding:20px;
+    font-size:22px;
+    font-weight:bold;
+    background: linear-gradient(to right, lightblue, pink);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    This is My Page
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Contact</a>
+    <a href="#">About</a>
+</nav>
+
+<div class="container">
+
+<aside>
+<h2>Aside</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum nisi eveniet.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum nisi eveniet.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum nisi eveniet.</p>
+</aside>
+
+<section>
+<h2>Section</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum nisi eveniet.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum nisi eveniet.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum nisi eveniet.</p>
+</section>
+
+<article>
+<h2>Article</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum nisi eveniet.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum nisi eveniet.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente rerum nisi eveniet.</p>
+</article>
+
+</div>
+
+<footer>
+    This is a footer
+</footer>
+
+</body>
+</html>
